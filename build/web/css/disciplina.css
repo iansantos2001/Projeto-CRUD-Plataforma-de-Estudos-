@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: #27948F;
+    width: 20%;
+    height: 87%;
+    padding: 65px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    padding: 12px 0;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+main h1 {
+    text-align: start;
+}
+
+main {
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: start;
+}
